@@ -1,6 +1,6 @@
 import express from 'express';
 const router = express.Router();
-import questionRoutes from './questionRoutes.js';
+import questionRoutes from './api/questionRoutes';
 
 router.use('/questions', questionRoutes);
 
